@@ -1,0 +1,40 @@
+name: goal_tracker_app
+description: Tracking Goals
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.3 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  google_fonts: ^4.0.3
+  get_storage: ^2.1.1
+  get: ^4.6.5
+  intl: any
+  lottie: ^2.3.1
+  flutter_launcher_icons: ^0.12.0
+  any_link_preview: ^3.0.0
+  flex_color_scheme: ^7.0.0
+  percent_indicator: ^4.2.3
+  share_plus: ^6.3.1
+  background_fetch: ^1.1.5
+  flutter_background_service: ^2.4.6
+  flutter_local_notifications: ^13.0.0
+  url_launcher: ^6.1.10
+  flutter_background_service_android: ^3.0.3
+  path_provider_android: ^2.0.24
+  http: ^0.13.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - asset/images/
+    - asset/lottie/
